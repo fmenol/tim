@@ -18,7 +18,7 @@ You must have Python 3.10 or later installed. Earlier versions of python may not
    python3 -m venv .venv && source .venv/bin/activate
    ```
 
-3. OPTIONAL - Rename example.env to .env with `cp example.env .env`and input the environment variables from [LangSmith](https://smith.langchain.com/). You need to create an account in LangSmith website if you haven't already.
+3. OPTIONAL - Create the file .env withe the following entries (you need to create an account in LangSmith website if you haven't already)
    ``` 
    LANGCHAIN_TRACING_V2=true
    LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
